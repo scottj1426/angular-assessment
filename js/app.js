@@ -7,7 +7,7 @@ angular
     });
     $stateProvider.state("about", {
       url: "/about",
-      templateUrl: "/js/views/about.html"
+      templateUrl: "/views/about.html"
     });
     $stateProvider.state("blog", {
       url: "/blog",
