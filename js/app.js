@@ -20,7 +20,7 @@ angular
     });
     $stateProvider.state("logo", {
       url: "/logo",
-      templateUrl: "./views/logo.html"
+      templateUrl: "/views/logo.html"
     });
     $stateProvider.state("detail", {
       url: "/productDetail",
