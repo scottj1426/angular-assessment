@@ -15,7 +15,7 @@ angular
     });
     $stateProvider.state("shop", {
       url: "/shop",
-      templateUrl: "./js/views/shop.html",
+      templateUrl: "/js/views/shop.html",
       controller: "shopCtrl"
     });
     $stateProvider.state("logo", {
