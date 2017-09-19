@@ -8,7 +8,7 @@ angular.module("assessment").service("shopSrv", function($http) {
     });
   };
 
-  this.getDetails = function() {
-    return $http.get("https://practiceapi.devmountain.com/products/");
+  this.getDetails = function(id) {
+    return $http.get("https://practiceapi.devmountain.com/products/" + id);
   };
 });

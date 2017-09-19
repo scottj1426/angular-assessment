@@ -1,15 +1,19 @@
-<divclass="product-grid__item  grid__item one-half large--one-third" >
+<div class="product-grid__item  grid__item one-half large--one-third" >
 
 
 
     <!--Product Meta-->
-    <div ng-repeat="item in inventory"class="product-grid__meta">
+    <div class="product-grid__meta">
+
+      <a class="product-grid__product" >
+          <img ng-src="{{inventory.image}}" class="product-grid__img"   sizes="(min-width: 960px) 33vw, (min-width: 769px) 50vw, 100vw" alt="">
+      </a>
         <!-- Tittle-->
-        <h3 class="product-grid__name"><a><!--Title-->{{item.title}}</a></h3>
+        <h3 class="product-grid__name"><a><!--Title-->{{inventory.title}}</a></h3>
         <!--Product Description-->
-        <h4 class="product-grid__sub"><!--Desc-->{{item.desc}}</h4>
+        <h4 class="product-grid__sub"><!--Desc-->{{inventory.desc}}</h4>
 
         <!--Product Price-->
-        <div class="product-grid__price"><!--Price-->{{item.price}}</div>
+        <div class="product-grid__price"><!--Price-->{{inventory.price}}</div>
     </div>
 </div>
